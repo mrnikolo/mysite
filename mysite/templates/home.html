@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="bg-cover bg-[url('static/images/backG.jpg')] content-center min-h-screen min-w-screen flex items-center justify-center justify-items-center">
+  <div class="relative">
+    <img class="object-cover object-center" src="static/images/mycard.png" alt="NIKOO">
+    <div class="flex items-center absolute bottom-16 left-32 -rotate-[17deg]">
+      <a class="cursor-pointer" href="http://instagram.com/cgnikoo">
+        <img class="h-4 w-4 mx-1" src="static/images/icon-instagaram.png" alt="instagaram">
+      </a>
+      <a class="cursor-pointer" href="https://github.com/mrnikolo">
+        <img class="h-4 w-4 mx-1" src="static/images/icon-github.png" alt="github">
+      </a>
+      <a class="cursor-pointer" href="https://www.linkedin.com/in/mohsen-nikolo/">
+        <img class="h-4 w-4 mx-1" src="static/images/icon-linkedin.png" alt="linkedin">
+      </a>
+      <a class="cursor-pointer" href="https://www.telegram.org/mrnikoocom">
+        <img class="h-4 w-4 mx-1" src="static/images/icon-telegram.png" alt="telegram">
+        <a href=""></a>
+      </a>
+    </div>
+  </div>
+  <div class="absolute bottom-10 right-10">
+    <a href="{% url 'download' %}"><img class="" src="/static/images/downloadcv.png" alt="go" ></a>
+    
+  </div>
+</div>
+</body>
+</html>
